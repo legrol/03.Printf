@@ -65,7 +65,7 @@ Este proyecto es ideal para profundizar en el funcionamiento interno de una de l
   
   Incluye la cabecera en tu programa:
 
-    - #include "ft_printf.h"
+    #include "ft_printf.h"
   
   Enlaza contra la biblioteca al compilar:
   
