@@ -35,3 +35,50 @@ Este proyecto es ideal para profundizar en el funcionamiento interno de una de l
   - Únicamente `write()` para salida.
 
 ---
+
+![Estructura](https://img.shields.io/badge/Estructura-orange?style=for-the-badge&logo=readthedocs)
+
+03.Printf-main/
+├── includes/          # Cabeceras (.h)
+│   └── ft_printf.h
+├── srcs/              # Implementación en C (.c)
+│   ├── ft_printf.c    # Función principal y dispatch
+│   ├── parser.c       # Parseo de formato y flags
+│   ├── handlers.c     # Funciones de impresión por tipo
+│   ├── utils.c        # Helpers de conversión y medición
+│   └── ...
+├── tests/             # (Opcional) casos de prueba automatizados
+├── Makefile           # Reglas de construcción
+└── libftprintf.a      # Biblioteca compilada (artefacto)
+
+![Compilación](https://img.shields.io/badge/Compilación-blue?style=for-the-badge&logo=readthedocs)
+
+  - make
+
+  - make all — Compila todo y genera libftprintf.a.
+
+  - make clean — Elimina los objetos intermedios (*.o).
+
+  - make fclean — Además de clean, elimina la biblioteca libftprintf.a.
+
+  - make re — Ejecuta fclean y luego all.
+
+![Uso](https://img.shields.io/badge/Uso-yellow?style=for-the-badge&logo=readthedocs)
+  
+  Incluye la cabecera en tu programa:
+
+    #include "ft_printf.h"
+  
+  Enlaza contra la biblioteca al compilar:
+  
+    gcc -L. -lftprintf your_program.c -o your_program
+  
+  Ejecutar el programa, usando ft_printf como cuando se usa printf:
+  
+    ft_printf("Hola %s, tienes %03d mensajes pendientes\n", nombre, mensajes);
+
+![Autor](https://img.shields.io/badge/Autor-red?style=for-the-badge)
+
+- Roberto del Olmo Lima
+- [![GitHub](https://img.shields.io/badge/GitHub-Profile-informational?style=for-the-badge&logo=github&logoColor=white&color=181717)](https://github.com/legrol)
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roberto-del-olmo-731746245)
