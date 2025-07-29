@@ -9,7 +9,7 @@
 
 Este proyecto es ideal para profundizar en el funcionamiento interno de una de las funciones más utilizadas en C y reforzar conceptos de punteros, estructuras de datos ligeras y manejo de memoria.
 
-![Funcionalidades](https://img.shields.io/badge/Funcionalidades-green?style=for-the-badge&logo=readthedocs)
+![Funcionalidades](https://img.shields.io/badge/Funcionalidades-green?style=for-the-badge)
 
 
 - Soporte de los siguientes especificadores de conversión:  
@@ -34,7 +34,7 @@ Este proyecto es ideal para profundizar en el funcionamiento interno de una de l
 - Sin uso de la función `printf` o familiares de la libc para formateo:  
   - Únicamente `write()` para salida.
 
-![Estructura](https://img.shields.io/badge/Estructura-orange?style=for-the-badge&logo=readthedocs)
+![Estructura](https://img.shields.io/badge/Estructura-orange?style=for-the-badge)
 
 03.Printf-main/
 ├── includes/          # Cabeceras (.h)
@@ -49,7 +49,7 @@ Este proyecto es ideal para profundizar en el funcionamiento interno de una de l
 ├── Makefile           # Reglas de construcción
 └── libftprintf.a      # Biblioteca compilada (artefacto)
 
-![Compilación](https://img.shields.io/badge/Compilación-blue?style=for-the-badge&logo=readthedocs)
+![Compilación](https://img.shields.io/badge/Compilación-blue?style=for-the-badge)
 
   - make
 
@@ -61,7 +61,7 @@ Este proyecto es ideal para profundizar en el funcionamiento interno de una de l
 
   - make re — Ejecuta fclean y luego all.
 
-![Uso](https://img.shields.io/badge/Uso-yellow?style=for-the-badge&logo=readthedocs)
+![Uso](https://img.shields.io/badge/Uso-yellow?style=for-the-badge)
   
   Incluye la cabecera en tu programa:
 
