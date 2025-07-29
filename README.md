@@ -66,9 +66,9 @@ Este proyecto es ideal para profundizar en el funcionamiento interno de una de l
 ![Uso](https://img.shields.io/badge/Uso-yellow?style=for-the-badge)
 
   Incluye la cabecera en tu programa:
-```bash
+
     #include "ft_printf.h"
-```  
+  
   Enlaza contra la biblioteca al compilar:
   
     gcc -L. -lftprintf your_program.c -o your_program
