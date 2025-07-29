@@ -64,7 +64,6 @@ Este proyecto es ideal para profundizar en el funcionamiento interno de una de l
 
 ![Uso](https://img.shields.io/badge/Uso-yellow?style=for-the-badge)
 
-'''bash  
   Incluye la cabecera en tu programa:
 
     #include "ft_printf.h"
