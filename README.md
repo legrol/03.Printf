@@ -34,8 +34,6 @@ Este proyecto es ideal para profundizar en el funcionamiento interno de una de l
 - Sin uso de la función `printf` o familiares de la libc para formateo:  
   - Únicamente `write()` para salida.
 
----
-
 ![Estructura](https://img.shields.io/badge/Estructura-orange?style=for-the-badge&logo=readthedocs)
 
 03.Printf-main/
@@ -67,7 +65,7 @@ Este proyecto es ideal para profundizar en el funcionamiento interno de una de l
   
   Incluye la cabecera en tu programa:
 
-    #include "ft_printf.h"
+    - #include "ft_printf.h"
   
   Enlaza contra la biblioteca al compilar:
   
