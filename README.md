@@ -36,6 +36,7 @@ Este proyecto es ideal para profundizar en el funcionamiento interno de una de l
 
 ![Estructura](https://img.shields.io/badge/Estructura-orange?style=for-the-badge)
 
+```text
 03.Printf-main/
 ├── includes/          # Cabeceras (.h)
 │   └── ft_printf.h
@@ -62,7 +63,8 @@ Este proyecto es ideal para profundizar en el funcionamiento interno de una de l
   - make re — Ejecuta fclean y luego all.
 
 ![Uso](https://img.shields.io/badge/Uso-yellow?style=for-the-badge)
-  
+
+'''bash  
   Incluye la cabecera en tu programa:
 
     #include "ft_printf.h"
