@@ -49,6 +49,7 @@ Este proyecto es ideal para profundizar en el funcionamiento interno de una de l
 ├── tests/             # (Opcional) casos de prueba automatizados
 ├── Makefile           # Reglas de construcción
 └── libftprintf.a      # Biblioteca compilada (artefacto)
+'''
 
 ![Compilación](https://img.shields.io/badge/Compilación-blue?style=for-the-badge)
 
@@ -76,6 +77,7 @@ Este proyecto es ideal para profundizar en el funcionamiento interno de una de l
   Ejecutar el programa, usando ft_printf como cuando se usa printf:
   
     ft_printf("Hola %s, tienes %03d mensajes pendientes\n", nombre, mensajes);
+'''
 
 ![Autor](https://img.shields.io/badge/Autor-red?style=for-the-badge)
 
